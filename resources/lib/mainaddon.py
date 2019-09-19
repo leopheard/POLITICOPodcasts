@@ -14,7 +14,7 @@ def get_soup1(url1):
     page = requests.get(url1)
     soup1 = BeautifulSoup(page.text, 'html.parser')
     print("type: ", type(soup1))
-    soup1 return
+    return soup1
 get_soup1("https://feeds.megaphone.fm/PPY1840735050")
 def get_soup2(url2):
     page = requests.get(url2)
