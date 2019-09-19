@@ -14,7 +14,7 @@ def get_soup1(url1):
     page = requests.get(url1)
     soup1 = BeautifulSoup(page.text, 'html.parser')
     print("type: ", type(soup1))
-    return soup1
+    soup1 return
 get_soup1("https://feeds.megaphone.fm/PPY1840735050")
 def get_soup2(url2):
     page = requests.get(url2)
@@ -183,7 +183,7 @@ def get_playable_podcast5(soup5):
         item = {
                 'url': link,
                 'title': title,
-                'thumbnail': "https://cdn.simplecast.com/images/57e73d0a-dce0-413c-a342-50aa222ebb97/98586637-f494-4c41-9a23-18c7aab1671f/1510085764artwork.jpg",
+                'thumbnail': "https://is3-ssl.mzstatic.com/image/thumb/Podcasts113/v4/7a/c4/c7/7ac4c7e6-975b-86ef-b899-bf3f3a678ea5/mza_119992604573376929.jpg/600x600bb.jpg",
         }
         subjects.append(item)
     return subjects
@@ -212,7 +212,7 @@ def get_playable_podcast6(soup6):
         item = {
                 'url': link,
                 'title': title,
-                'thumbnail': "https://cdn.simplecast.com/images/57e73d0a-dce0-413c-a342-50aa222ebb97/98586637-f494-4c41-9a23-18c7aab1671f/1510085764artwork.jpg",
+                'thumbnail': "https://is3-ssl.mzstatic.com/image/thumb/Podcasts113/v4/b1/0a/97/b10a97dd-887d-7194-2540-ca762ef9fefd/mza_6322448531695263244.jpg/600x600bb.jpg",
         }
         subjects.append(item)
     return subjects
@@ -241,7 +241,7 @@ def get_playable_podcast7(soup7):
         item = {
                 'url': link,
                 'title': title,
-                'thumbnail': "https://cdn.simplecast.com/images/57e73d0a-dce0-413c-a342-50aa222ebb97/98586637-f494-4c41-9a23-18c7aab1671f/1510085764artwork.jpg",
+                'thumbnail': "https://is4-ssl.mzstatic.com/image/thumb/Podcasts123/v4/ea/a2/eb/eaa2eb6e-3557-f9bf-c236-f0c79d188c0c/mza_5850662405940263070.jpg/600x600bb.jpg",
         }
         subjects.append(item)
     return subjects

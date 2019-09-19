@@ -14,20 +14,44 @@ msgstr ""
 "Language: en\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-msgctxt "#30000"
-msgid "All episodes"
-msgstr ""
-
 msgctxt "#30001"
-msgid "Latest episodes"
+msgid "Global Translations"
 msgstr ""
 
 msgctxt "#30002"
-msgid ""
+msgid "Nerdcast"
 msgstr ""
 
 msgctxt "#30003"
-msgid ""
+msgid "Off Message"
+msgstr ""
+
+msgctxt "#30004"
+msgid "Playbook Audio Briefing"
+msgstr ""
+
+msgctxt "#30005"
+msgid "Pulse Checks"
+msgstr ""
+
+msgctxt "#30006"
+msgid "Politico Money"
+msgstr ""
+
+msgctxt "#30007"
+msgid "Women Rule"
+msgstr ""
+
+msgctxt "#30008"
+msgid "text"
+msgstr ""
+
+msgctxt "#30009"
+msgid "Text"
+msgstr ""
+
+msgctxt "#30010"
+msgid "TEXT"
 msgstr ""
 
 # empty string with id 32003
